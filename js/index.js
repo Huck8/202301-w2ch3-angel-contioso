@@ -143,7 +143,7 @@ function compare() {
   console.log("This numbers get ot of the bombo " + usedNumbers);
   return usedNumbers;
 }
-function toPlay() {
+export function toPlay() {
   bingoPlayer();
   changesCard();
   attemps();
